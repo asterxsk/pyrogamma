@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Pyrogamma Group — Get in touch for general inquiries or pitch your story to Pyrogamma Press.">
+    <meta name="keywords" content="contact Pyrogamma, story pitch, media inquiries">
+    <title>Contact — Pyrogamma Group</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/phoenix-logo.png" alt="Pyrogamma" class="logo-icon">
+                <span>Pyrogamma Group</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 40vh;">
+        <h1>Get in Touch</h1>
+        <p class="slogan">We tell the stories of people who build</p>
+    </section>
+
+    <!-- Split Layout -->
+    <section>
+        <div class="split-layout">
+
+            <!-- Left: Group Inquiries -->
+            <div class="split-section fade-in">
+                <h3>General Inquiries</h3>
+                <p style="color: var(--color-ash); margin-bottom: 1.5rem;">
+                    Questions about Pyrogamma Group, partnership opportunities, or joining our team.
+                </p>
+
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="hidden" name="inquiry_type" value="general">
+
+                    <div class="form-group">
+                        <label for="general-name" class="form-label">Name</label>
+                        <input type="text" id="general-name" name="name" class="form-input" placeholder="Your name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="general-email" class="form-label">Email</label>
+                        <input type="email" id="general-email" name="email" class="form-input"
+                            placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="general-subject" class="form-label">Subject</label>
+                        <input type="text" id="general-subject" name="subject" class="form-input"
+                            placeholder="What is this about?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="general-message" class="form-label">Message</label>
+                        <textarea id="general-message" name="message" class="form-textarea"
+                            placeholder="Tell us more..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Right: Story Pitches -->
+            <div class="split-section fade-in">
+                <h3>Story Pitches</h3>
+                <p style="color: var(--color-ash); margin-bottom: 1.5rem;">
+                    Have a story for Pyrogamma Press? Tell us about the innovation, founder, or technology we should
+                    cover.
+                </p>
+
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="hidden" name="inquiry_type" value="story_pitch">
+
+                    <div class="form-group">
+                        <label for="pitch-name" class="form-label">Name</label>
+                        <input type="text" id="pitch-name" name="name" class="form-input" placeholder="Your name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pitch-email" class="form-label">Email</label>
+                        <input type="email" id="pitch-email" name="email" class="form-input"
+                            placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pitch-company" class="form-label">Company/Startup (if applicable)</label>
+                        <input type="text" id="pitch-company" name="company" class="form-input"
+                            placeholder="Company name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pitch-category" class="form-label">Story Category</label>
+                        <select id="pitch-category" name="category" class="form-select" required>
+                            <option value="">Select a category</option>
+                            <option value="founders">Founders</option>
+                            <option value="technology">Technology</option>
+                            <option value="newsletter">Newsletter Topic</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pitch-message" class="form-label">Story Pitch</label>
+                        <textarea id="pitch-message" name="pitch" class="form-textarea"
+                            placeholder="What makes this story compelling? Why should we cover it?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Pitch</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Additional Contact Info -->
+    <section style="text-align: center; padding: 3rem 2rem;">
+        <h2 class="section-title">Other Ways to Connect</h2>
+        <p class="section-body">
+            Follow us on social media for daily insights and updates.
+        </p>
+
+        <div style="display: flex; justify-content: center; gap: 2rem; margin-top: 2rem; flex-wrap: wrap;">
+            <a href="#" style="color: var(--color-ember); font-size: 1.1rem; transition: var(--transition-smooth);">
+                <strong>𝕏 Twitter</strong> @PyrogammaGroup
+            </a>
+            <a href="#" style="color: var(--color-ember); font-size: 1.1rem; transition: var(--transition-smooth);">
+                <strong>LinkedIn</strong> Pyrogamma Group
+            </a>
+            <a href="#" style="color: var(--color-ember); font-size: 1.1rem; transition: var(--transition-smooth);">
+                <strong>Email</strong> hello@pyrogamma.com
+            </a>
+        </div>
+    </section>
+
+    <!-- Response Time Note -->
+    <section class="philosophy" style="padding: 2rem;">
+        <p style="font-size: 1rem; color: var(--color-ash); max-width: 600px; margin: 0 auto;">
+            We read every message and try to respond within 48 hours. For story pitches, please allow up to one week for
+            editorial review.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/phoenix-logo.png" alt="Pyrogamma" class="footer-logo-icon">
+                <p style="font-family: var(--font-headline); font-size: 1.2rem; font-weight: 700;">Pyrogamma Group</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navigate</h4>
+                <a href="press.html">Press</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="newsletter.html">Newsletter</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Connect</h4>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Email">@</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span class="current-year">2024</span> Pyrogamma Group. Building the future. Telling its story.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

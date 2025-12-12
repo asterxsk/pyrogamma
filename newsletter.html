@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Pyrogamma Weekly — Deep analysis of innovation delivered every Sunday. Join 50,000 innovators.">
+    <meta name="keywords" content="innovation newsletter, startup analysis, technology weekly, Pyrogamma Weekly">
+    <title>Newsletter — Pyrogamma Press</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/phoenix-logo.png" alt="Pyrogamma" class="logo-icon">
+                <span>Pyrogamma Group</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>The Pyrogamma Weekly</h1>
+        <p class="slogan">Analysis Delivered</p>
+    </section>
+
+    <!-- Subscription Form -->
+    <section>
+        <div class="form-container">
+            <h2 class="text-center" style="color: var(--color-ember);">Join 50,000 innovators</h2>
+            <p class="text-center" style="color: var(--color-ash); margin-bottom: 2rem;">
+                Every Sunday, we deliver deep analysis on innovation, breakthrough companies, and emerging technology.
+                No fluff. Just signal.
+            </p>
+
+            <form class="newsletter-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name" class="form-label">First Name (Optional)</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Your first name">
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Subscribe</button>
+
+                <p style="text-align: center; font-size: 0.85rem; color: var(--color-ash); margin-top: 1rem;">
+                    We respect your privacy. Unsubscribe anytime.
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Newsletter Archive Grid -->
+    <section>
+        <h2 class="section-title">Archive</h2>
+
+        <div class="card-grid">
+
+            <!-- Issue 1 -->
+            <div class="card fade-in">
+                <div
+                    style="background: linear-gradient(135deg, var(--color-ember), #FF8542); height: 200px; border-radius: var(--card-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-black); font-size: 2rem; font-weight: 700;">Issue #47</h3>
+                </div>
+                <p class="card-meta">Dec 8, 2024 • 5 min read</p>
+                <h3 class="card-title">The AI Regulation Wave is Coming</h3>
+                <p class="card-description">
+                    How upcoming legislation will reshape the AI landscape and what startups need to know. A breakdown
+                    of the EU AI Act, US executive orders, and what comes next.
+                </p>
+                <a href="#" class="btn">Read Issue</a>
+            </div>
+
+            <!-- Issue 2 -->
+            <div class="card fade-in">
+                <div
+                    style="background: linear-gradient(135deg, #FF8542, var(--color-ember)); height: 200px; border-radius: var(--card-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-black); font-size: 2rem; font-weight: 700;">Issue #46</h3>
+                </div>
+                <p class="card-meta">Dec 1, 2024 • 6 min read</p>
+                <h3 class="card-title">Climate Tech's Funding Problem</h3>
+                <p class="card-description">
+                    Why breakthrough climate solutions struggle to find investors, and what's changing. Inside the gap
+                    between venture timelines and climate urgency.
+                </p>
+                <a href="#" class="btn">Read Issue</a>
+            </div>
+
+            <!-- Issue 3 -->
+            <div class="card fade-in">
+                <div
+                    style="background: linear-gradient(135deg, var(--color-ember), #C54E0F); height: 200px; border-radius: var(--card-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-black); font-size: 2rem; font-weight: 700;">Issue #45</h3>
+                </div>
+                <p class="card-meta">Nov 24, 2024 • 5 min read</p>
+                <h3 class="card-title">The Return of Hardware Startups</h3>
+                <p class="card-description">
+                    After years of software dominance, why physical products are making a comeback. From factories to
+                    funding, the hardware renaissance explained.
+                </p>
+                <a href="#" class="btn">Read Issue</a>
+            </div>
+
+            <!-- Issue 4 -->
+            <div class="card fade-in">
+                <div
+                    style="background: linear-gradient(135deg, #C54E0F, var(--color-ember)); height: 200px; border-radius: var(--card-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-black); font-size: 2rem; font-weight: 700;">Issue #44</h3>
+                </div>
+                <p class="card-meta">Nov 17, 2024 • 7 min read</p>
+                <h3 class="card-title">Vertical SaaS is Eating the World</h3>
+                <p class="card-description">
+                    Why industry-specific software is outcompeting horizontal platforms. Case studies from construction,
+                    healthcare, and legal tech.
+                </p>
+                <a href="#" class="btn">Read Issue</a>
+            </div>
+
+            <!-- Issue 5 -->
+            <div class="card fade-in">
+                <div
+                    style="background: linear-gradient(135deg, var(--color-ember), #FF8542); height: 200px; border-radius: var(--card-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-black); font-size: 2rem; font-weight: 700;">Issue #43</h3>
+                </div>
+                <p class="card-meta">Nov 10, 2024 • 6 min read</p>
+                <h3 class="card-title">The Talent War: Remote vs. In-Office</h3>
+                <p class="card-description">
+                    Data from 200 startups on what actually works. The surprising truth about productivity, retention,
+                    and culture in hybrid teams.
+                </p>
+                <a href="#" class="btn">Read Issue</a>
+            </div>
+
+            <!-- Issue 6 -->
+            <div class="card fade-in">
+                <div
+                    style="background: linear-gradient(135deg, #FF8542, var(--color-ember)); height: 200px; border-radius: var(--card-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                    <h3 style="color: var(--color-black); font-size: 2rem; font-weight: 700;">Issue #42</h3>
+                </div>
+                <p class="card-meta">Nov 3, 2024 • 5 min read</p>
+                <h3 class="card-title">Developer Tools: The Billion Dollar Blueprint</h3>
+                <p class="card-description">
+                    How infrastructure startups reach unicorn status. Lessons from Vercel, Supabase, and the bottom-up
+                    adoption playbook.
+                </p>
+                <a href="#" class="btn">Read Issue</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/phoenix-logo.png" alt="Pyrogamma" class="footer-logo-icon">
+                <p style="font-family: var(--font-headline); font-size: 1.2rem; font-weight: 700;">Pyrogamma Group</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navigate</h4>
+                <a href="press.html">Press</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="newsletter.html">Newsletter</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Connect</h4>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Email">@</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span class="current-year">2024</span> Pyrogamma Group. Building the future. Telling its story.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Stories that shape tomorrow. Read deep dives on innovation, founders, and breakthrough technology.">
+    <meta name="keywords" content="innovation stories, startup journalism, technology analysis, founder interviews">
+    <title>Stories — Pyrogamma Press</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/phoenix-logo.png" alt="Pyrogamma" class="logo-icon">
+                <span>Pyrogamma Group</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="press.html">Press</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Stories that shape tomorrow</h1>
+    </section>
+
+    <!-- Filter Section -->
+    <section>
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="founders">Founders</button>
+            <button class="filter-btn" data-filter="technology">Technology</button>
+            <button class="filter-btn" data-filter="newsletter">Newsletter Topics</button>
+        </div>
+    </section>
+
+    <!-- Editorial Feed -->
+    <section>
+        <div class="card-grid">
+
+            <!-- Story 1 -->
+            <div class="card story-card" data-category="technology">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop"
+                    alt="AI Ethics" class="card-image" loading="lazy">
+                <p class="card-meta">Technology • 8 min read • Dec 10, 2024</p>
+                <h3 class="card-title">Veritas AI: Building Ethics Into Machine Learning</h3>
+                <p class="card-description">
+                    How a team of researchers is creating transparent, accountable AI systems that prioritize human
+                    values over pure optimization. The future of AI depends on making ethics fundamental, not optional.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 2 -->
+            <div class="card story-card" data-category="founders">
+                <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop"
+                    alt="Drone Technology" class="card-image" loading="lazy">
+                <p class="card-meta">Founders • 10 min read • Dec 8, 2024</p>
+                <h3 class="card-title">Aether Robotics: Autonomous Drones for Infrastructure</h3>
+                <p class="card-description">
+                    From MIT lab to field deployment. The journey of building drones that inspect bridges, power lines,
+                    and critical infrastructure. A conversation with founder Sarah Chen about scaling hardware startups.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 3 -->
+            <div class="card story-card" data-category="technology">
+                <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=400&fit=crop"
+                    alt="Gene Editing" class="card-image" loading="lazy">
+                <p class="card-meta">Technology • 12 min read • Dec 5, 2024</p>
+                <h3 class="card-title">Luminary Bio: Gene Editing for Disease Resistance</h3>
+                <p class="card-description">
+                    Inside the lab where CRISPR technology meets personalized medicine. Can we engineer immunity to
+                    hereditary diseases? The science, ethics, and commercial potential of next-generation gene therapy.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 4 -->
+            <div class="card story-card" data-category="newsletter">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop"
+                    alt="Innovation" class="card-image" loading="lazy">
+                <p class="card-meta">Newsletter Topics • 6 min read • Dec 3, 2024</p>
+                <h3 class="card-title">The Innovation Paradox: Why Great Ideas Often Fail</h3>
+                <p class="card-description">
+                    A deep dive into the gap between brilliant technology and market adoption. What separates successful
+                    innovations from forgotten prototypes? Lessons from failed startups that had the right idea at the
+                    wrong time.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 5 -->
+            <div class="card story-card" data-category="founders">
+                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&h=400&fit=crop"
+                    alt="Team Building" class="card-image" loading="lazy">
+                <p class="card-meta">Founders • 9 min read • Nov 30, 2024</p>
+                <h3 class="card-title">Building Teams That Ship: Lessons from 50 Startups</h3>
+                <p class="card-description">
+                    The hiring patterns that separate fast-moving startups from those that stall. How the best founders
+                    recruit, onboard, and retain talent in competitive markets.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 6 -->
+            <div class="card story-card" data-category="technology">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop"
+                    alt="Quantum Computing" class="card-image" loading="lazy">
+                <p class="card-meta">Technology • 15 min read • Nov 28, 2024</p>
+                <h3 class="card-title">Quantum Computing's Commercial Breakthrough</h3>
+                <p class="card-description">
+                    After decades of research, quantum computers are solving real business problems. A technical
+                    deep-dive into the algorithms, hardware, and companies leading the quantum revolution.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 7 -->
+            <div class="card story-card" data-category="newsletter">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                    alt="Market Analysis" class="card-image" loading="lazy">
+                <p class="card-meta">Newsletter Topics • 7 min read • Nov 25, 2024</p>
+                <h3 class="card-title">The New VC Landscape: Where Money Flows in 2025</h3>
+                <p class="card-description">
+                    Venture capital is changing. Mega-rounds are down, but angel investing is up. What this means for
+                    founders raising their first million or next hundred million.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 8 -->
+            <div class="card story-card" data-category="founders">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop"
+                    alt="Collaboration" class="card-image" loading="lazy">
+                <p class="card-meta">Founders • 11 min read • Nov 22, 2024</p>
+                <h3 class="card-title">Co-Founder Chemistry: The Science of Partnerships</h3>
+                <p class="card-description">
+                    Why some founding teams thrive while others implode. Research-backed insights into what makes
+                    co-founder relationships work, from equity splits to decision-making frameworks.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Story 9 -->
+            <div class="card story-card" data-category="technology">
+                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop"
+                    alt="Space Tech" class="card-image" loading="lazy">
+                <p class="card-meta">Technology • 13 min read • Nov 20, 2024</p>
+                <h3 class="card-title">Private Space Stations: The Next Frontier</h3>
+                <p class="card-description">
+                    As the ISS prepares to retire, private companies are racing to build its replacement. Inside the
+                    startups designing orbital laboratories, manufacturing facilities, and tourist destinations.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/phoenix-logo.png" alt="Pyrogamma" class="footer-logo-icon">
+                <p style="font-family: var(--font-headline); font-size: 1.2rem; font-weight: 700;">Pyrogamma Group</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navigate</h4>
+                <a href="press.html">Press</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="newsletter.html">Newsletter</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Connect</h4>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Email">@</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span class="current-year">2024</span> Pyrogamma Group. Building the future. Telling its story.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
