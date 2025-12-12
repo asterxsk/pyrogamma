@@ -10,24 +10,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // LOADING SCREEN ANIMATION
     // ===========================
     const loadingScreen = document.querySelector('.loading-screen');
-    const loadingText = document.querySelector('.loading-text');
+    const loadingContent = document.querySelector('.loading-content');
 
-    if (loadingScreen && loadingText) {
-        // Animate text in - VERY FAST
+    if (loadingScreen && loadingContent) {
+        // Animate content (logo + text) in - VERY FAST
         anime({
-            targets: '.loading-text',
+            targets: '.loading-content',
             opacity: [0, 1],
             scale: [0.95, 1],
             duration: 300,
             easing: 'easeOutCubic',
             complete: () => {
-                // Brief glow pulse
+                // Brief glow pulse on both logo and text
                 anime({
-                    targets: '.loading-text',
-                    textShadow: [
-                        '0 0 30px rgba(255, 107, 26, 0.6)',
-                        '0 0 50px rgba(255, 107, 26, 0.9)',
-                        '0 0 30px rgba(255, 107, 26, 0.6)'
+                    targets: ['.loading-logo', '.loading-text'],
+                    filter: [
+                        'drop-shadow(0 0 30px rgba(255, 107, 26, 0.6))',
+                        'drop-shadow(0 0 50px rgba(255, 107, 26, 0.9))',
+                        'drop-shadow(0 0 30px rgba(255, 107, 26, 0.6))'
                     ],
                     duration: 400,
                     easing: 'easeInOutQuad',
