@@ -4,7 +4,7 @@ A premium editorial website with dark theme, anime.js animations, and optimized 
 
 ## 🌐 Live Site
 
-[View Live Site](#) _(Add your GitHub Pages URL after deployment)_
+[View Live Site](asterxsk.github.io/pyrogamma/)
 
 ## 📋 Features
 
